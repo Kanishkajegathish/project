@@ -196,8 +196,8 @@ class _HomescreenState extends State<Homescreen> {
                               ],
                             ),
                             Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                              // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              // crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   'Wind: ${_weather!.windSpeed!.toStringAsFixed(0)} m/s',
